@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="于泽辉的个人主页，展示后台开发实习经历、项目经历、技术栈与联系方式。"
+      content="于泽辉的个人主页，展示后端开发、AI 全栈、LLM Agent 项目与腾讯实习经历。"
     />
-    <title>于泽辉 | 后台开发实习生</title>
+    <title>于泽辉 | 后端开发 / AI 全栈开发</title>
     <style>
       :root {
         color-scheme: light;
@@ -477,7 +477,7 @@
 
       .skills-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 16px;
       }
 
@@ -678,11 +678,11 @@
     <main id="top">
       <div class="container hero">
         <div>
-          <span class="eyebrow">Backend Development Intern</span>
+          <span class="eyebrow">Backend & AI Full-Stack Engineer</span>
           <h1>于泽辉</h1>
           <p class="lead">
-            计算机技术硕士在读，求职方向为后端开发/服务端开发。关注后端工程、服务稳定性与
-            AI Coding 辅助开发，具备腾讯-后台开发实习经历和完整 Web 项目实践。
+            计算机技术硕士在读，求职方向为后端开发 / AI 全栈开发。具备腾讯后台开发实习经历，
+            关注服务性能与稳定性、AI Coding 工程化实践及 LLM Agent 在真实业务中的落地。
           </p>
           <div class="hero-actions">
             <a class="button primary" href="mailto:zhyu729@163.com" aria-label="发送邮件">
@@ -735,10 +735,10 @@
           <div class="section-head">
             <span class="section-kicker">Profile</span>
             <div>
-              <h2>以工程交付为导向的后端开发候选人。</h2>
+              <h2>面向真实业务交付的后端与 AI 全栈开发候选人。</h2>
               <p class="section-copy">
-                目前就读于西安邮电大学计算机技术专业，具备 Java / Go 后台开发、Web
-                框架、数据库、缓存、消息队列与容器化基础。简历仍会继续完善，当前主页先沉淀核心履历与项目亮点。
+                目前就读于西安邮电大学计算机技术专业，具备 Go 后台服务、Java Web、微服务与中间件基础，
+                能够将 AI Coding、工具调用、RAG 与场景化 Prompt 融入研发和智能排障流程。
               </p>
             </div>
           </div>
@@ -748,7 +748,7 @@
               <dl class="info-list">
                 <div class="info-row">
                   <dt>求职意向</dt>
-                  <dd>后端开发 / 服务端开发等方向</dd>
+                  <dd>后端开发 / AI 全栈开发工程师</dd>
                 </div>
                 <div class="info-row">
                   <dt>联系电话</dt>
@@ -772,13 +772,15 @@
               <div class="tag-cloud" aria-label="技术关键词">
                 <span class="tag">Java</span>
                 <span class="tag">Go</span>
-                <span class="tag">Spring Boot</span>
-                <span class="tag">MyBatis</span>
+                <span class="tag">LLM Agent</span>
+                <span class="tag">Function Calling</span>
+                <span class="tag">RAG</span>
+                <span class="tag">Prompt Engineering</span>
                 <span class="tag">MySQL</span>
                 <span class="tag">Redis</span>
-                <span class="tag">RabbitMQ</span>
+                <span class="tag">Kafka</span>
+                <span class="tag">Elasticsearch</span>
                 <span class="tag">Docker</span>
-                <span class="tag">CI/CD</span>
                 <span class="tag">AI Coding</span>
               </div>
             </div>
@@ -792,7 +794,7 @@
             <span class="section-kicker">Experience</span>
             <div>
               <h2>实习经历</h2>
-              <p class="section-copy">围绕后台服务维护、业务模块重构、测试环境搭建与交付稳定性展开。</p>
+              <p class="section-copy">覆盖后台业务迭代、跨地域调用优化、智能排障平台建设与私有化服务交付。</p>
             </div>
           </div>
 
@@ -803,14 +805,15 @@
                 <h3>腾讯 · PCG · 新闻平台业务部</h3>
                 <p class="role">后台开发</p>
                 <ul>
-                  <li>当前经历待补充，主页已预留正式内容区。</li>
-                  <li>后续可补充业务背景、负责模块、性能优化、稳定性建设与量化结果。</li>
+                  <li>负责微视后台互动方向业务迭代与服务维护，参与接口、核心链路与跨地域调用治理，保障线上业务稳定交付。</li>
+                  <li>主导异地调用接口耗时优化，设计并落地指定地域路由插件，使跨地域请求直达目标地域服务器，接口平均耗时与 P95 耗时均下降约 80%。</li>
+                  <li>负责重点用户行为追踪与智能排障平台开发，打通 Kafka 日志消费、ES 检索与 AI 归因分析链路，实现操作链路还原、失败聚合、详情下钻和大模型辅助归因。</li>
                 </ul>
               </div>
             </article>
 
             <article class="timeline-item">
-              <div class="time">2025.12 - 2026.04</div>
+              <div class="time">2025.12 - 2026.03</div>
               <div>
                 <h3>腾讯 · CSIG · 云产品五部</h3>
                 <p class="role">后台开发</p>
@@ -831,13 +834,43 @@
             <span class="section-kicker">Selected Projects</span>
             <div>
               <h2>精选项目</h2>
-              <p class="section-copy">
-                既覆盖 Java 后端领域建模与高并发处理，也包含 Django + Vue 全栈平台、视频传输优化、订阅权限与容器化部署实践。
-              </p>
+              <p class="section-copy">覆盖 LLM Agent 智能排障、AI 辅助全栈开发与 Java 高并发后端系统实践。</p>
             </div>
           </div>
 
           <div class="project-list">
+            <article class="project-card">
+              <h3>基于 LLM Agent 的用户行为追踪与智能排障平台</h3>
+              <div class="project-meta">
+                <span class="meta-pill">LLM Agent</span>
+                <span class="meta-pill">Function Calling</span>
+                <span class="meta-pill">RAG</span>
+                <span class="meta-pill">Prompt Engineering</span>
+                <span class="meta-pill">Kafka</span>
+                <span class="meta-pill">Elasticsearch</span>
+              </div>
+              <div class="project-summary" aria-label="智能排障平台项目概览">
+                <div class="summary-item">
+                  <strong>业务场景</strong>
+                  <span>面向重点用户线上问题排查，覆盖行为采集、链路追踪、日志检索与 AI 归因分析。</span>
+                </div>
+                <div class="summary-item">
+                  <strong>数据链路</strong>
+                  <span>通过 Kafka 消费访问日志，结构化补齐关键字段并写入 ES，支持时间线、失败聚合与详情下钻。</span>
+                </div>
+                <div class="summary-item">
+                  <strong>Agent 能力</strong>
+                  <span>结合上下文注入、工具调用、RAG、多轮记忆与场景化 Prompt，生成可解释的排障结论。</span>
+                </div>
+              </div>
+              <ul>
+                <li>将失败聚合、用户记录、全局行为、单条详情与相邻上下文等接口封装为 Function Calling 工具，使大模型能够自动选择工具完成多步排查。</li>
+                <li>AI 助手唤起时自动注入用户标识、时间窗口、筛选条件、选中请求和相邻操作记录，减少重复描述并提升分析准确性。</li>
+                <li>接入命令字、错误码、接口说明、排障手册与历史 Case，通过 RAG 结合实时日志生成原因分析和处理建议。</li>
+                <li>按照“异常现象、日志证据、可能原因、处理建议”组织输出，帮助快速定位失败原因并归纳异常分布。</li>
+              </ul>
+            </article>
+
             <article class="project-card">
               <h3>gritKnow 在线税务学习平台</h3>
               <div class="project-meta">
@@ -868,7 +901,7 @@
                 <li>基于 Nginx X-Accel-Redirect 实现受保护视频文件直传，绕过 Django 响应流媒体请求，提升大文件传输与播放性能。</li>
                 <li>实现 JWT 身份认证与 Google / Facebook 等第三方登录，兼顾账号安全与登录体验。</li>
                 <li>设计会员分级订阅与课程权限体系，串联购物车、订单支付、优惠券和课程访问控制，形成完整商业闭环。</li>
-                <li>借助 AI Coding 提升全栈开发效率，覆盖后端接口、前端组件、部署脚本与测试联调，同时负责提示词拆解、代码校验和问题修正。</li>
+                <li>借助 AI Coding 提升全栈开发效率，覆盖后端接口、前端组件、部署脚本与测试联调，同时负责代码校验和问题修正。</li>
                 <li>集成在线测验、学习证书自动生成、学习进度追踪与 i18n 国际化能力，支持跨地区、多场景使用。</li>
               </ul>
               <div class="project-links">
@@ -939,22 +972,26 @@
             <span class="section-kicker">Skills</span>
             <div>
               <h2>技术能力</h2>
-              <p class="section-copy">按招聘阅读习惯重新整理技能栈，弱化堆砌感，突出可交付的后端工程能力。</p>
+              <p class="section-copy">突出 AI 工程化、Agent 开发与后端系统交付能力。</p>
             </div>
           </div>
 
           <div class="skills-grid">
             <div class="panel skill-group">
-              <h3><span class="skill-dot"></span>编程与基础</h3>
-              <p>Java 语言特性、面向对象编程、集合框架、常见数据结构、并发编程基础、Go 语言开发实践。</p>
+              <h3><span class="skill-dot"></span>AI Coding 与工程化</h3>
+              <p>熟练使用 Claude Code、Codex、Cursor，熟悉需求拆解、上下文组织、代码生成、结果校验与迭代优化，能够将 AI 融入日常研发流程。</p>
             </div>
             <div class="panel skill-group">
-              <h3><span class="skill-dot"></span>后端框架</h3>
-              <p>Spring、Spring Boot、Spring MVC、MyBatis、MyBatis-Plus，具备 Web 项目开发与接口设计经验。</p>
+              <h3><span class="skill-dot"></span>Skills 与工作流</h3>
+              <p>具备编写和维护定制化 Skills 的经验，能够将项目规范、代码生成约束与测试流程沉淀为可复用、可控的 AI 工作流。</p>
             </div>
             <div class="panel skill-group">
-              <h3><span class="skill-dot"></span>工程组件</h3>
-              <p>MySQL、Redis、RabbitMQ、Docker、Git、CI/CD，了解缓存、事务、索引、消息队列与容器化基础。</p>
+              <h3><span class="skill-dot"></span>Agent 开发</h3>
+              <p>了解 LangChain、LangGraph 等框架，理解工具调用、状态管理、任务编排、记忆、RAG 与多步推理等核心概念。</p>
+            </div>
+            <div class="panel skill-group">
+              <h3><span class="skill-dot"></span>后端与中间件</h3>
+              <p>熟悉 Go 后台服务、微服务与接口设计，掌握 Java Web 基础；熟悉 MySQL、Redis，了解 Elasticsearch、消息队列与 Docker。</p>
             </div>
           </div>
         </div>
